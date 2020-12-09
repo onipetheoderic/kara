@@ -1,0 +1,8 @@
+{
+    "name": "carousel",
+    "version": "0.0.1",
+    "private": true,
+    "description": "This is the Toolbar for the client",
+    "author": "Theoderic Onipe",
+    "main": "carousel.js"
+}
