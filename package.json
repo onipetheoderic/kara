@@ -28,6 +28,7 @@
     "react-slick": "^0.27.13",
     "react-spring": "^8.0.27",
     "react-textfield": "^0.0.6",
+    "react-toastify": "^6.2.0",
     "react-typing-animation": "^1.6.2",
     "react-whatsapp": "^0.2.0",
     "slick-carousel": "^1.8.1",
