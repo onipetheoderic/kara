@@ -7563,6 +7563,11 @@ joi-browser@^9.0.4:
   resolved "https://registry.yarnpkg.com/joi-browser/-/joi-browser-9.1.0.tgz#cdd6ac8d81b86d647f651caf778f2288c8b275ad"
   integrity sha1-zdasjYG4bWR/ZRyvd48iiMiyda0=
 
+js-image-zoom@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/js-image-zoom/-/js-image-zoom-0.7.0.tgz#9cea6e7a4da1feae99e7433dc58fdc31f05a977f"
+  integrity sha512-csvn2FmRLjVz5O9AtXGRPKy0Khfcf5n2Vuyg1NyOVylcjzJ6IKN60JmZ/d5rVQvMya9V6tqAaCqj/c20PlUYpQ==
+
 "js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
@@ -10264,6 +10269,16 @@ react-dev-utils@^11.0.1:
     strip-ansi "6.0.0"
     text-table "0.2.0"
 
+react-dom@^16.3.0:
+  version "16.14.0"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.14.0.tgz#7ad838ec29a777fb3c75c3a190f661cf92ab8b89"
+  integrity sha512-1gCeQXDLoIqMgqD3IO2Ah9bnf0w9kzhwN5q4FGnHZ67hBm9yePzB5JJAIQCc8x3pFnNlwFq4RidZggNAAkzWWw==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
+    scheduler "^0.19.1"
+
 react-dom@^17.0.1:
   version "17.0.1"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-17.0.1.tgz#1de2560474ec9f0e334285662ede52dbc5426fc6"
@@ -10289,6 +10304,14 @@ react-fast-compare@^2.0.1:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/react-fast-compare/-/react-fast-compare-2.0.4.tgz#e84b4d455b0fec113e0402c329352715196f81f9"
   integrity sha512-suNP+J1VU1MWFKcyt7RtjiSWUjvidmQSlqu+eHslq+342xCbGTYmC0mEhPCOHxlW0CywylOC1u2DFAT+bv4dBw==
+
+react-image-zoom@^1.3.1:
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/react-image-zoom/-/react-image-zoom-1.3.1.tgz#f0083dbab6d8bbb4687c1d53fa5b7b7a9ad1012d"
+  integrity sha512-RSw64hMnrnezokenByljfIWVJX5vJQiCirMBJxVqQ3rbQFXk0KGKsoMzdr7cc0/YYStrag3xK8UQZH8KdlTbYQ==
+  dependencies:
+    js-image-zoom "^0.7.0"
+    prop-types "^15.7.2"
 
 react-is@^16.12.0, react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.4:
   version "16.13.1"
@@ -10428,6 +10451,14 @@ react-scripts@4.0.1:
   optionalDependencies:
     fsevents "^2.1.3"
 
+react-simple-image-zoom@^0.1.5:
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/react-simple-image-zoom/-/react-simple-image-zoom-0.1.5.tgz#ee9e283b455bb0046d0765f3e1442b8d3adea177"
+  integrity sha512-yLw4kAvusBYVL3ICdy5I5EmUgvNsoPe8eQW8TsAe0oujHw6yUMcyqMhFeleNVKJPbAfUdCCnATcKp/i2zhd92A==
+  dependencies:
+    react "^16.3.0"
+    react-dom "^16.3.0"
+
 react-slick@^0.27.13:
   version "0.27.13"
   resolved "https://registry.yarnpkg.com/react-slick/-/react-slick-0.27.13.tgz#1fdb60f56b1a08ffbafaa2251924845f1e192230"
@@ -10491,6 +10522,15 @@ react-whatsapp@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/react-whatsapp/-/react-whatsapp-0.2.0.tgz#31307c60949829ae80da20deae2e69e46312eb1b"
   integrity sha512-hlWhxNP1fHH/2lxcS3jgKlHXVsQbM51LuTlz38cCzm4cxtrPyVlfa6QEEfB5agjG5EJ4wlkFAauGwBtu39huXQ==
+
+react@^16.3.0:
+  version "16.14.0"
+  resolved "https://registry.yarnpkg.com/react/-/react-16.14.0.tgz#94d776ddd0aaa37da3eda8fc5b6b18a4c9a3114d"
+  integrity sha512-0X2CImDkJGApiAlcf0ODKIneSwBPhqJawOa5wCtKbu7ZECrmS26NvtSILynQ66cgkT/RJ4LidJOc3bUESwmU8g==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
 
 react@^17.0.1:
   version "17.0.1"
@@ -11034,6 +11074,14 @@ saxes@^5.0.0:
   integrity sha512-5LBh1Tls8c9xgGjw3QrMwETmTMVk0oFgvrFSvWx62llR2hcEInrKNZ2GZCCuuy2lvWrdl5jhbpeqc5hRYKFOcw==
   dependencies:
     xmlchars "^2.2.0"
+
+scheduler@^0.19.1:
+  version "0.19.1"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.19.1.tgz#4f3e2ed2c1a7d65681f4c854fa8c5a1ccb40f196"
+  integrity sha512-n/zwRWRYSUj0/3g/otKDRPMh6qv2SYMWNq85IEa8iZyAv8od9zDYpGSnpBEjNgcMNq6Scbu5KfIPxNF72R/2EA==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
 
 scheduler@^0.20.1:
   version "0.20.1"

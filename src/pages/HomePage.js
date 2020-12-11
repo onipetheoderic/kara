@@ -24,7 +24,9 @@ import { CounterContext } from "../store";
 
 import { agric } from '../themes/agric';
 import { medic } from '../themes/medic';
-
+import {
+    Link,
+  } from "react-router-dom";
 
 export default function Homepage(props) {
     const globalState = useContext(CounterContext);
@@ -259,13 +261,15 @@ export default function Homepage(props) {
                 <Grid item xs={12} sm={2}>
                     
                 <div className={classes.paper2}>
-                <span className={classes.cartText2}>{product.name}</span>
+                <Link to={`/description/${product._id}`} style={{textDecoration:'none', color:'black'}}>
+                    <span className={classes.cartText2}>{product.name}</span>
                     <img src={product.image} style={{width:'100%', height:120}} />
                    <div>
                         <span className={classes.previousPrice}>₦{product.previousPrice}</span>
                         -
                         <span className={classes.currentPrice}>₦{product.currentPrice}</span>
                    </div>
+                   </Link>
                     <div className={classes.cartButton} onClick={()=>addToCart(product)}>
                         
                         <span className={classes.cartText}>Add To Cart</span>
